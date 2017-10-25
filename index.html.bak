@@ -26,6 +26,8 @@
 
 	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #1A1A1A; }</style>
 
+	<link rel="stylesheet" href="css/libs.min.css">
+	<script src="js/libs.min.js"></script>	
 </head>
 
 <body>		
@@ -383,9 +385,7 @@
 
 	</div>
 
-	<link rel="stylesheet" href="css/libs.min.css">
 	<link rel="stylesheet" href="css/main.min.css"> 
-	<script src="js/libs.min.js"></script>	
 	<script src="js/common.min.js"></script>
 </body>
 </html>
