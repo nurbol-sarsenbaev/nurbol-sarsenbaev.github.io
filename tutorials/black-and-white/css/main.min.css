@@ -334,7 +334,12 @@ body {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .col-xxs-12 {
-    width: 100%; } }
+    width: 100%; }
+  .article-image {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    margin-bottom: 20px; } }
 
 /**/
 /* Custom, iPhone Retina */
