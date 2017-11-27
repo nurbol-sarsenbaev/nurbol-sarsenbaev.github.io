@@ -136,6 +136,7 @@
 .input, .textarea {
   background-color: #f2f2f2;
   width: 100%;
+  max-width: 100%;
   height: 46px;
   outline: 0;
   padding: 0 16px;
@@ -331,6 +332,10 @@ body {
 /* Small Devices, Tablets */
 /**/
 /* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .col-xxs-12 {
+    width: 100%; } }
+
 /**/
 /* Custom, iPhone Retina */
 /**/
