@@ -122,6 +122,10 @@ video {
       -ms-flex-positive: 1;
           flex-grow: 1; }
 
+.header .phone-link {
+ font-weight: bold; 
+}
+
 .button {
   background-color: #ff6600;
   -webkit-border-radius: none;
