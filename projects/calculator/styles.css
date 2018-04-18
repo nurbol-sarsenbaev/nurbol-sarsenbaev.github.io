@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 
 .calc {
   position: relative;
@@ -16,10 +20,15 @@
 }
 
 .calc-display {
-  height: 26px;
-  line-height: 26px;
+  width: 186px;
+  display: block;
+  height: 30px;
+  line-height: 30px;
   text-align: right;
   padding: 4px;
+  color: #000;
+  font-size: 16px;
+  background: transparent;
 }
 
 .calc-button {

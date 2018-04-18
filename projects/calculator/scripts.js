@@ -1,23 +1,27 @@
 
-var buttons = document.getElementsByClassName("calc-button");
+var buttons = document.getElementsByClassName('calc-button');
 
 for(var i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener('click', buttonClick);
 }
 
 function buttonClick() {
-  var type = this.getAttribute("data-type");
+  var type = this.getAttribute('data-type');
   var display = this.parentNode.firstElementChild;
 
   switch (type) {
     case '=':
-      display.innerHTML = eval(display.innerHTML);
+      var arr = display.value.split("");
+      console.log(arr);
+
+      display
+      // display.innerHTML = eval(str);
       break;
     case 'c':
-      display.innerHTML = "";
+      display.value = "";
       break;  
     default:
-      display.innerHTML += type;
+      display.value += type;
       break;
   }
 }
