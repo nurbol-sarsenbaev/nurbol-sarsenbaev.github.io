@@ -1,0 +1,45 @@
+
+.calc {
+  position: relative;
+  font-size: 0;
+  color: #000;
+  text-align: center;
+  width: 200px;
+  padding: 2px;
+  margin: 0 auto;
+}
+
+.calc > * {
+  border: 1px solid #000;
+  font-size: 16px;
+  margin: 4px;
+}
+
+.calc-display {
+  height: 26px;
+  line-height: 26px;
+  text-align: right;
+  padding: 4px;
+}
+
+.calc-button {
+  width: 40px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.calc-clear {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+}
+
+.calc-button:hover, .calc-clear:hover {
+  background: #000;
+  color: #fff;
+}
