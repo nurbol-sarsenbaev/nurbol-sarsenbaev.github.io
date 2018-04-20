@@ -11,11 +11,7 @@ function buttonClick() {
 
   switch (type) {
     case '=':
-      var arr = display.value.split("");
-      console.log(arr);
-
-      display
-      // display.innerHTML = eval(str);
+      display.value = eval(display.value);
       break;
     case 'c':
       display.value = "";
