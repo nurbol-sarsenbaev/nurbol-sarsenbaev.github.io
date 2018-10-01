@@ -1,0 +1,32 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.game {
+  position: relative;
+  border: 1px solid #000;
+  width: 600px;
+  height: 400px;
+  margin: 30px auto;
+}
+
+.ball {
+  position: absolute;
+  top: 360px;
+  left: calc(50% - 10px);
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.car {
+  position: absolute;
+  top: 380px;
+  left: calc(50% - 75px);
+  width: 150px;
+  height: 20px;
+  background-color: #bbb;
+}
